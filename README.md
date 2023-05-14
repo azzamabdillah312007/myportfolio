@@ -1,2 +1,3 @@
 # myportfolio
-berisi informasi seputar data diri 
+portfolio by:azzam abdillah
+
