@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .sidebar ul li a{
     text-decoration: none;
 }
@@ -89,6 +93,7 @@ header ul li a:hover{
     width: 300px;
     background-color: rgba(136, 19, 55, .9);
     transition: .3s;
+    z-index: 999;
 }
 
 .sidebar ul li a{
@@ -155,6 +160,10 @@ section h3::after{
     border-radius: 2px 2px;
 }
 
+#about{
+    background-color: #c0c0c0;
+}
+
 #about p{
     text-align: justify;
     text-indent: 30px;
@@ -168,7 +177,7 @@ section h3::after{
 /* _____________________________________________________________ */
 
 #skill{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: #e1e1e1;
     padding-bottom: 30px;
 }
@@ -219,7 +228,11 @@ section h3::after{
     font-size: 20px;
 }
 
-.col-4{
+#portfolio{
+    background-color: #bababa;
+}
+
+.col4{
     width: 40%;
     height: 300px;
     box-sizing: border-box;
@@ -233,17 +246,18 @@ section h3::after{
     border-radius: 12px 12px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 3px;
 }
+.col4:hover{
+    transform: scale(1.1);
+}
 
-
-
-.col-4 h5{
+.col4 h5{
     margin-top: 10px;
     font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.col-4 p{
+.col4 p{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 20px 40px;
@@ -268,13 +282,13 @@ section h3::after{
 
 .contact-form form{
     position: relative;
+    background-color: #ddd;
 }
 .contact-form form input,
 form textarea{
     width: 98%;
     padding: 14px;
     color: white;
-
     border: none;
     outline: none;
     font-size: 15px;
@@ -312,7 +326,7 @@ form textarea{
 
 
 #contact{
-    background-color: #e1e1e1;
+    background-color: #bebebe;
 }
 
 #contact a{
@@ -350,6 +364,8 @@ html{
 }
 
 
+
+
 /* ________________________________________________ */
 
 
@@ -364,10 +380,10 @@ html{
         display: none;
     }
 
-    .col-4{
+    .col4{
         width: 90%;
         height: 230px;
-        margin-left: 30px;
+        margin-left: 22px;
     }
 
     section h3::after{
@@ -384,7 +400,7 @@ html{
         align-items: center;
     }
 
-    .col-4 p {
+    .col4 p {
         font-size: 12px;
         padding: 5px 0;
     }
