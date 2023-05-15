@@ -22,6 +22,7 @@ header h1{
 header h1 a{
     transition: .3s;
     color:#2d2d2d;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -110,7 +111,7 @@ header ul li a:hover{
 }
 
 .benner{
-    background-color: #d0194d;
+    background-color: #1a1a1a;
 }
 
 section{
@@ -229,7 +230,8 @@ section h3::after{
     margin-bottom: 30px;
     transition: .3s;
     background-color: #1b1b1b;
-    border-radius: 8px 8px;
+    border-radius: 12px 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 3px;
 }
 
 
@@ -326,9 +328,9 @@ html{
     }
 
     .col-4{
-        width: 50%;
-        height: 150px;
-        margin-left: 100px;
+        width: 85%;
+        height: 210px;
+        margin-left: 30px;
     }
 
     section h3::after{
@@ -340,13 +342,42 @@ html{
     }
 
     .sosmed{
-        padding-left: 31%;
+        padding-left: 22%;
         justify-content: center;
         align-items: center;
     }
 
     .col-4 p {
-        font-size: 8px;
+        font-size: 12px;
         padding: 5px 0;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .header h1 a{
+    font-size: 9px;
+   }
+
+
+   .benner h2{
+    padding-top: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.benner p{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 20px;
+}
 }
