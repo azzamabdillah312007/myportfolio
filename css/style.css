@@ -444,6 +444,24 @@ html{
         background-color: #1a1a1a;
         padding-top: 90px;
     }
+
+    .sidebar a{
+        text-decoration: none;
+    }
+    
+    .sidebar ul a li{
+        color: white;
+    }
+    
+    .sidebar ul li{
+        padding: 24px;
+        transition: .3s;
+        transition-property: backround-color;
+    }
+    
+    .sidebar ul li:hover{
+        background-color: #9a002c;
+    }
     
 
 }
