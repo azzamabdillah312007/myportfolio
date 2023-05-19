@@ -189,6 +189,13 @@ section h3::after{
     display: inline-block;
 }
 
+#about img{
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 420px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
+
 
 #about span{
     color: #9a002c;
