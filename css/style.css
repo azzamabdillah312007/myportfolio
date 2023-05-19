@@ -150,9 +150,12 @@ section{
     text-align: justify;
 }
 
+
 .benner img{
-    display: inline-block;
-    width: 200px;
+    margin-left: 440px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
 }
 
 section h3{
@@ -186,12 +189,6 @@ section h3::after{
     display: inline-block;
 }
 
-#about img{
-    margin-left: 440px;
-    width: 300px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
-}
 
 #about span{
     color: #9a002c;
