@@ -134,22 +134,25 @@ section{
     padding: 50px 0;
 }
 
-.benner img{
-    width: 350px;
-    border-radius: 30px;
-    box-shadow: 0 3px 5px #ddd;
-}
 
 .benner h2{
     padding-top: 25px;
     color: white;
-    font-size: 25px;
+    font-size: 50px;
+    padding-left: 5px;
 }
 
 .benner p{
     color: #fff;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 40px;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.benner img{
+    display: inline-block;
+    width: 200px;
 }
 
 section h3{
@@ -180,6 +183,14 @@ section h3::after{
     text-indent: 30px;
     line-height: 20px;
     padding-top: 15px;
+    display: inline-block;
+}
+
+#about img{
+    margin-left: 440px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
 }
 
 #about span{
@@ -201,8 +212,8 @@ section h3::after{
 
 #skill .bar{
     height: 30px;
-    border: 1px solid;
     margin: 5px 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .bar .nilai{
@@ -211,6 +222,7 @@ section h3::after{
     display: inline-block;
     text-align: center;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .nilai span{
@@ -291,6 +303,7 @@ section h3::after{
 .contact-form form{
     position: relative;
     background-color: #bababa;
+    width: 100%;
 }
 .contact-form form input,
 form textarea{
@@ -322,6 +335,7 @@ form textarea{
     color: white;
     margin-bottom: 120px;
     margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .contact-form .submit:hover {
@@ -338,6 +352,7 @@ form textarea{
 
 #contact a{
     color: #1b1b1b;
+    text-decoration: none;
 }
 
 #contact a:hover{
@@ -364,15 +379,17 @@ html{
 }
 
 #contact .wa{
-    margin-top: -5px;
+    margin-top: -3px;
     position: absolute;
+    margin-left: 10px;
 }
 
 #contact .tweet{
-    margin-top: 4px;
-    margin-left: 100px;
+    margin-top: -3px;
     position: absolute;
+    margin-left: 83px;
 }
+
 
 
 
@@ -425,20 +442,17 @@ html{
    .benner h2{
     padding-top: 25px;
     color: white;
-    font-size: 16px;
+    font-size: 30px;
+    padding-left: 10px;
    }
+
 
     .benner p{
         color: #fff;
         padding-top: 10px;
         font-size: 20px;
+        padding-left: 14px;
     }
-
-    .benner img{
-        width: 300px;
-        margin-left: 30px;
-    }
-
 
     .benner{
         background-color: #1a1a1a;
@@ -463,5 +477,18 @@ html{
         background-color: #9a002c;
     }
     
+    .contact-form form{
+        position: relative;
+        background-color: #bababa;
+        width: 94%;
+    }
+
+    #about img{
+        margin-left: 65px;
+        width: 200px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+    }
+
 
 }
